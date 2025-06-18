@@ -1,0 +1,15 @@
+{
+  "new_todo_field": "[data-testid='text-input']",
+  "toggle_list": "[data-testid='toggle-all']",
+
+  "footer": "[data-testid='footer']",
+  "footer_navigation": "[data-testid='footer-navigation']",
+  "todo_count":".todo-count",
+  "filters": {
+    "all": "[data-testid='footer-navigation'] a:contains('All')",
+    "active": "[data-testid='footer-navigation'] a:contains('Active')",
+    "completed": "[data-testid='footer-navigation'] a:contains('Completed')"
+  },
+
+  "clear_btn": ".clear-completed"
+}
