@@ -1,10 +1,12 @@
 {
+  "url": "https://todomvc.com/examples/react/dist/#/",
   "new_todo_field": "[data-testid='text-input']",
   "toggle_list": "[data-testid='toggle-all']",
-
+  "toggle_item": "[data-testid='todo-item-toggle']",
+  "item_label": "[data-testid='todo-item-label']",
   "footer": "[data-testid='footer']",
   "footer_navigation": "[data-testid='footer-navigation']",
-  "todo_count":".todo-count",
+  "todo_count": ".todo-count",
   "filters": {
     "all": "[data-testid='footer-navigation'] a:contains('All')",
     "active": "[data-testid='footer-navigation'] a:contains('Active')",
