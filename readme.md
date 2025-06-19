@@ -1,9 +1,5 @@
 # 🔪 Cypress UI Tests – TodoMVC (React)
 
-![Cypress](https://img.shields.io/badge/Cypress-17202C?style=flat-square\&logo=cypress\&logoColor=white)
-![License](https://img.shields.io/github/license/catellic/qa-cypress-ui-tests?style=flat-square)
-![Last Commit](https://img.shields.io/github/last-commit/catellic/qa-cypress-ui-tests?style=flat-square)
-
 This project contains end-to-end automated tests built with [Cypress](https://www.cypress.io/) for the [TodoMVC (React)](https://todomvc.com/examples/react/) demo application.
 It is part of my **QA Automation portfolio**, showcasing skills in UI testing, custom command design, data-driven testing, and CI integration.
 
@@ -102,5 +98,6 @@ Quality Assurance Engineer · QA Automation Specialist
 ## 📄 License
 
 
+![Cypress](https://img.shields.io/badge/Cypress-17202C?style=flat-square\&logo=cypress\&logoColor=white)
 ![License](https://img.shields.io/github/license/catellic/qa-cypress-ui-tests?style=flat-square)
 ![Last Commit](https://img.shields.io/github/last-commit/catellic/qa-cypress-ui-tests?style=flat-square)
