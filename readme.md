@@ -1,5 +1,9 @@
 # 🔪 Cypress UI Tests – TodoMVC (React)
 
+![Cypress](https://img.shields.io/badge/Cypress-17202C?style=flat-square\&logo=cypress\&logoColor=white)
+![License](https://img.shields.io/github/license/catellic/qa-cypress-ui-tests?style=flat-square)
+![Last Commit](https://img.shields.io/github/last-commit/catellic/qa-cypress-ui-tests?style=flat-square)
+
 This project contains end-to-end automated tests built with [Cypress](https://www.cypress.io/) for the [TodoMVC (React)](https://todomvc.com/examples/react/) demo application.
 It is part of my **QA Automation portfolio**, showcasing skills in UI testing, custom command design, data-driven testing, and CI integration.
 
@@ -11,17 +15,17 @@ It is part of my **QA Automation portfolio**, showcasing skills in UI testing, c
 qa-cypress-ui-tests/
 ├── cypress/
 │   ├── e2e/
-│   │   └── spec.cy.js            # Main test suite
+│   │   └── todos.cy.js           # Main test suite
 │   ├── fixtures/
-│   │   ├── fixture.json          # Centralized UI selectors
-│   │   └── selectors.json        # Data file for parameterized tests
+│   │   ├── selectors.json        # Centralized UI selectors
+│   │   └── fixture.json          # Data file for parameterized tests
 │   └── support/
 │       ├── commands.js           # Custom Cypress commands
 │       └── e2e.js                # Global support file
 ├── cypress.config.js             # Cypress configuration
 ├── package.json                  # Dependencies and scripts
 ├── README.md                     # This file
-└── .github/workflows/            # GitHub Actions
+└── .github/workflows/            # GitHub Actions (coming soon)
 ```
 
 ---
@@ -97,4 +101,6 @@ Quality Assurance Engineer · QA Automation Specialist
 
 ## 📄 License
 
-This project is licensed under the MIT License.
+
+![License](https://img.shields.io/github/license/catellic/qa-cypress-ui-tests?style=flat-square)
+![Last Commit](https://img.shields.io/github/last-commit/catellic/qa-cypress-ui-tests?style=flat-square)
