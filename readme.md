@@ -1,51 +1,62 @@
-# 🧪 Cypress UI Tests – TodoMVC (React)
+# 🔪 Cypress UI Tests – TodoMVC (React)
 
-Questo progetto contiene test end-to-end automatizzati con [Cypress](https://www.cypress.io/) per l'applicazione demo [TodoMVC (React)](https://todomvc.com/examples/react/).  
-È parte del mio portfolio di **QA Automation**.
+This project contains end-to-end automated tests built with [Cypress](https://www.cypress.io/) for the [TodoMVC (React)](https://todomvc.com/examples/react/) demo application.
+It is part of my **QA Automation portfolio**, showcasing skills in UI testing, custom command design, data-driven testing, and CI integration.
 
 ---
 
-## 📂 Struttura del progetto
+## 📁 Project Structure
 
 ```
 qa-cypress-ui-tests/
 ├── cypress/
 │   ├── e2e/
-│   │   └── todos.cy.js         # Test per le funzionalità base dell'app
+│   │   └── spec.cy.js            # Main test suite
+│   ├── fixtures/
+│   │   ├── fixture.json          # Centralized UI selectors
+│   │   └── selectors.json        # Data file for parameterized tests
 │   └── support/
-├── cypress.config.js           # Configurazione Cypress
-├── package.json                # Gestione dipendenze e script
-├── README.md                   # Questo file
-└── .github/workflows/          # CI GitHub Actions (in arrivo)
+│       ├── commands.js           # Custom Cypress commands
+│       └── e2e.js                # Global support file
+├── cypress.config.js             # Cypress configuration
+├── package.json                  # Dependencies and scripts
+├── README.md                     # This file
+└── .github/workflows/            # GitHub Actions
 ```
 
 ---
 
-## 🚀 Funzionalità testate
+## ✅ Tested Features
 
-- ✅ Aggiunta di un todo
-- ✅ Completamento tramite toggle
-- ✅ Eliminazione di un todo
-- ✅ Filtri: All / Active / Completed
+| Feature                           | Status |
+| --------------------------------- | ------ |
+| Adding new todos                  | ✅      |
+| Completing todos                  | ✅      |
+| Clearing completed todos          | ✅      |
+| Editing existing todos            | ✅      |
+| Filters: All / Active / Completed | ✅      |
+| Data-driven task addition         | ✅      |
+| Task counter validation           | ✅      |
+| DOM visibility checks             | ✅      |
 
 ---
 
-## 🛠️ Setup locale
+## 🛠️ Local Setup
 
-### 1. Clona il progetto
+### 1. Clone the project
 
 ```bash
-git clone https://github.com/tuo-username/qa-cypress-ui-tests.git
+git clone https://github.com/your-username/qa-cypress-ui-tests.git
 cd qa-cypress-ui-tests
 ```
 
-### 2. Installa le dipendenze
+### 2. Install dependencies
 
 ```bash
 npm install
 ```
 
-### 3. Esegui i test
+### 3. Run tests
 
 #### Headless (CI-friendly)
 
@@ -53,7 +64,7 @@ npm install
 npm test
 ```
 
-#### Interfaccia grafica Cypress
+#### Cypress GUI (Interactive mode)
 
 ```bash
 npm run cy:open
@@ -61,29 +72,29 @@ npm run cy:open
 
 ---
 
-## ⚙️ CI con GitHub Actions
+## ⚙️ Continuous Integration
 
-Il progetto può essere eseguito automaticamente in CI con GitHub Actions.  
-👉 Workflow disponibile in `.github/workflows/cypress.yml`.
-
----
-
-## 📦 Stack Tecnologico
-
-- Cypress 13+
-- Node.js 20+
-- GitHub Actions
+This project is CI-ready and can be executed in GitHub Actions.
+👉 A reusable workflow will soon be available in `.github/workflows/cypress.yml`.
 
 ---
 
-## 👤 Autore
+## 📆 Tech Stack
 
-**Christan Catelli**  
-Quality Assurance Engineer · QA Automation · Testing Specialist  
+* [Cypress 13+](https://docs.cypress.io/)
+* Node.js 20+
+* GitHub Actions (CI)
+
+---
+
+## 👤 Author
+
+**Christian Catelli**
+Quality Assurance Engineer · QA Automation Specialist
 🌐 [https://catellic.github.io](https://catellic.github.io)
 
 ---
 
-## 📄 Licenza
+## 📄 License
 
-MIT
+This project is licensed under the MIT License.
